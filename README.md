@@ -1,14 +1,8 @@
-# Welcome to your CDK TypeScript project
+# GitLab Runner
+> This package is developed with AWS CDK.
+> The purpose of this project is to allow you to deploy your own GitLab Runner on AWS.
+> Before deploying, ensure that you have completed the `.env` file with your relevant configurations, you can copy from the `.env.example`
 
-This is a blank project for CDK development with TypeScript.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+## Deploy
+- command: `npx cdk deploy`
